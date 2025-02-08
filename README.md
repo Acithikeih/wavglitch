@@ -28,7 +28,7 @@ wavglitch in.wav -o processed.wav -t 120 -l 1/32 -p 0.1 -n 20
 Process 'in.wav', dividing it into segments with a length of a 1/4 note in 200 BPM with 5% chance of swapping segments in default range of 8 and 15% chance of reversing a segment. Process each channel separately and use defaults (including default output path) for other options.
 
 ```sh
-wavglitch in.wav -o processed.wav -t 200 -l 1/4 -w 0.05 -r 0.15 -c
+wavglitch in.wav -t 200 -l 1/4 -w 0.05 -r 0.15 -c
 ```
 
 ## Building
