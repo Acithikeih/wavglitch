@@ -1,0 +1,21 @@
+[package]
+name = "wavglitch"
+version = "0.1.0"
+authors = ["Acithikeih <acithikeih@proton.me>"]
+edition = "2021"
+description = "Program that divides audio into segments and processes them in order to create glitch-like effects."
+documentation = "https://github.com/Acithikeih/wavglitch"
+readme = "README.md"
+homepage = "https://github.com/Acithikeih/wavglitch"
+repository = "https://github.com/Acithikeih/wavglitch"
+license = "MIT"
+
+[dependencies]
+clap = { version = "4.5.26", features = ["derive"] }
+hound = "3.5.1"
+rand = "0.8.5"
+yansi = { version = "1.0.1", features = ["detect-tty", "detect-env"] }
+anyhow = "1.0.95"
+
+[dev-dependencies]
+assert_fs = "1.1.2"
